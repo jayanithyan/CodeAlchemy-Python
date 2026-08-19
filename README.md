@@ -1,363 +1,115 @@
 # ⚗️ Code Alchemy — Python
 
-> **Turning problems into patterns, and patterns into problem-solving skills.**
+A collection of my **Python solutions to HackerRank and DSA problems**.
 
-Welcome to **Code Alchemy**, my personal collection of **Data Structures & Algorithms (DSA)** and **HackerRank** solutions written in **Python**.
+This repository is mainly for tracking my problem-solving practice, improving my Python skills, and keeping my solutions organized in one place.
 
-This repository serves as a continuously evolving archive of my problem-solving journey — from fundamental programming problems to algorithmic challenges involving arrays, strings, hashing, recursion, searching, sorting, and more.
+## 📌 About
 
-The goal isn't just to collect solutions. It's to understand **how problems can be broken down, recognized as patterns, and solved efficiently.**
+**Code Alchemy — Python** contains the problems I've solved while practicing:
 
----
+* Python programming
+* HackerRank challenges
+* Data Structures & Algorithms
+* Problem-solving and logical thinking
+* Coding interview preparation
 
-## 🧠 What You'll Find Here
+The repository will continue to grow as I solve more problems.
 
-This repository contains solutions covering:
+## 🧩 Topics
 
-* 🐍 Python programming fundamentals
-* 🧩 Data Structures & Algorithms
-* 💻 HackerRank problems
-* 🔢 Arrays & Strings
-* 🔍 Searching & Sorting
-* 🗺️ Hashing & Hash Maps
-* 🔄 Two Pointers
-* 🪟 Sliding Window
-* 📚 Stack & Queue
-* 🔗 Linked Lists
-* 🌳 Trees & Binary Trees
-* 🌐 Graphs
-* 🔁 Recursion & Backtracking
-* 💰 Greedy Algorithms
-* 🧮 Dynamic Programming
-* 🔢 Mathematics & Number Theory
-* ⚡ Complexity & Optimization
+The problems currently cover concepts such as:
 
-The repository will continue to grow as I solve more problems and revisit older concepts.
+* Python basics
+* Conditions & loops
+* Functions
+* Strings
+* Lists
+* Arrays
+* Dictionaries
+* Sets
+* Searching
+* Sorting
+* Basic algorithms
+* Data Structures
+* Problem solving
 
----
+More topics will be added as I progress.
 
-## 📂 Repository Structure
+## 📂 Repository
 
-The repository is organized around different problem-solving categories and platforms.
+The repository is organized based on the problems and platforms I practice.
 
 ```text
 Code-Alchemy-Python/
 │
 ├── HackerRank/
-│   ├── Python/
-│   ├── Problem_Solving/
-│   └── ...
 │
 ├── DSA/
-│   ├── Arrays/
-│   ├── Strings/
-│   ├── Hashing/
-│   ├── Two_Pointers/
-│   ├── Sliding_Window/
-│   ├── Linked_List/
-│   ├── Stack/
-│   ├── Queue/
-│   ├── Trees/
-│   ├── Graphs/
-│   ├── Recursion/
-│   ├── Backtracking/
-│   ├── Greedy/
-│   └── Dynamic_Programming/
 │
 └── README.md
 ```
 
-> The folder structure may evolve as the repository grows.
+The structure may change as the repository grows.
 
----
+## 🐍 Language
 
-## 🧩 Problem-Solving Philosophy
+**Python 3**
 
-For every problem, I try to follow a simple process:
+The solutions are written primarily for practice and learning.
 
-```text
-Understand
-    ↓
-Identify the Pattern
-    ↓
-Develop a Brute Force Approach
-    ↓
-Analyze Time & Space Complexity
-    ↓
-Optimize
-    ↓
-Implement
-    ↓
-Test
-    ↓
-Revisit
-```
+## 🎯 Purpose
 
-The focus is not only on getting the correct answer, but on understanding:
+This repository helps me:
 
-**Why does this approach work?**
-
-**Can it be optimized?**
-
-**What pattern can I recognize in another problem?**
-
----
-
-## 🛠️ Languages & Tools
-
-### Primary Language
-
-🐍 **Python**
-
-### Platforms
-
-* HackerRank
-* LeetCode
-* Other coding practice platforms
-
-### Concepts
-
-```text
-Data Structures
-Algorithms
-Problem Solving
-Time Complexity
-Space Complexity
-Pattern Recognition
-Optimization
-```
-
----
+* Practice Python consistently
+* Improve problem-solving skills
+* Learn and revise DSA concepts
+* Track the problems I've solved
+* Revisit problems when preparing for coding interviews
 
 ## 📈 Progress
 
-This repository represents my ongoing DSA journey.
+This is an ongoing repository.
 
-Rather than measuring progress only by the number of problems solved, I focus on developing the ability to:
-
-* Recognize common algorithmic patterns
-* Select appropriate data structures
-* Write clean and readable solutions
-* Analyze complexity
-* Optimize inefficient approaches
-* Revisit and improve previous solutions
-
-### Current Focus
+I don't consider the number of problems solved to be the only measure of progress. The main goal is to become better at understanding a problem, finding an approach, and implementing it efficiently.
 
 ```text
-DSA
- ├── Arrays & Strings
- ├── Hashing
- ├── Two Pointers
- ├── Sliding Window
- ├── Stack & Queue
- ├── Linked Lists
- ├── Trees
- ├── Graphs
- └── Dynamic Programming
-```
-
----
-
-## 🔥 Important Patterns
-
-Some of the patterns I am actively practicing:
-
-### Two Pointers
-
-```text
-left  → → → 
-              ← ← ← right
-```
-
-Useful for problems involving:
-
-* Sorted arrays
-* Pair/triplet problems
-* Array manipulation
-* Palindromes
-* Searching from both ends
-
-### Sliding Window
-
-```text
-[ left -------- right ]
-```
-
-Useful for:
-
-* Subarray problems
-* Substring problems
-* Maximum/minimum window problems
-* Frequency-based problems
-
-### Hashing
-
-```text
-Input
-  ↓
-HashMap / HashSet
-  ↓
-Fast lookup
-  ↓
-Optimized solution
-```
-
-Useful for:
-
-* Frequency counting
-* Duplicate detection
-* Two Sum-style problems
-* Grouping
-* Prefix-sum problems
-
----
-
-## ⏱️ Complexity Matters
-
-For every optimized solution, I try to understand its complexity.
-
-| Complexity   | Meaning      |
-| ------------ | ------------ |
-| `O(1)`       | Constant     |
-| `O(log n)`   | Logarithmic  |
-| `O(n)`       | Linear       |
-| `O(n log n)` | Linearithmic |
-| `O(n²)`      | Quadratic    |
-| `O(2ⁿ)`      | Exponential  |
-
-A solution that works is good.
-
-A solution that works **efficiently** is better.
-
----
-
-## 💡 Example
-
-A typical problem-solving progression might look like:
-
-```text
-Brute Force
-O(n²)
+Problem
    ↓
-Identify repeated work
+Understand
    ↓
-Choose a better data structure
+Think
    ↓
-Hashing / Two Pointers / Sliding Window
+Code
    ↓
-Optimized Solution
-O(n)
+Test
+   ↓
+Learn
 ```
 
-This is the kind of thinking I want this repository to document.
-
----
-
-## 🎯 Goals
-
-The long-term goals of **Code Alchemy** are to:
-
-* Build strong DSA fundamentals
-* Develop pattern-recognition skills
-* Become comfortable solving medium and hard problems
-* Improve Python problem-solving fluency
-* Prepare for technical interviews
-* Maintain a structured record of my learning
-* Continuously revisit and optimize older solutions
-
----
-
-## 🚀 How to Use This Repository
-
-You can browse the repository by topic and use the solutions as a reference when practicing DSA.
-
-If you're learning a particular pattern, start with the corresponding folder and try solving the problems yourself before looking at the implementation.
-
-### Recommended approach
-
-```text
-1. Read the problem
-2. Try solving it yourself
-3. Identify the pattern
-4. Implement your solution
-5. Compare approaches
-6. Analyze complexity
-7. Revisit the problem later
-```
-
-> **Don't use this repository as an answer sheet. Use it as a learning reference.**
-
----
-
-## 📚 Platforms
+## 💻 Platforms
 
 ### HackerRank
 
-Solutions to programming and problem-solving challenges from HackerRank.
+Python and problem-solving challenges practiced on HackerRank.
 
-### LeetCode
+### DSA Practice
 
-Selected DSA problems solved while practicing algorithmic patterns and interview-style questions.
+Solutions to DSA problems practiced as part of my coding preparation.
 
----
+## ⚠️ Note
 
-## 🔄 Continuous Learning
+These solutions are part of my personal learning journey.
 
-This repository is **actively evolving**.
-
-New problems, improved solutions, optimized approaches, and new DSA patterns will be added as I continue learning.
-
-```text
-More Problems
-      ↓
-More Patterns
-      ↓
-Better Understanding
-      ↓
-Better Problem Solver
-```
-
----
+If you're using this repository for reference, I recommend trying the problem yourself before looking at the solution.
 
 ## 👨‍💻 Author
 
-### Jaya Nithyan
+**Jaya Nithyan**
 
 B.Tech — Artificial Intelligence & Data Science
 
-Interested in:
-
-* Software Development
-* Data Structures & Algorithms
-* Backend Development
-* Machine Learning
-* Full-Stack Development
-
 ---
 
-## ⭐ Repository Philosophy
-
-> **Don't memorize solutions. Understand patterns.**
-
-> **Don't chase problems solved. Chase problems understood.**
-
----
-
-## 📌 Note
-
-These solutions are primarily maintained for **learning, revision, and interview preparation**.
-
-If you're currently practicing DSA, try solving the problems yourself before referring to the solutions.
-
----
-
-## ⭐ If You Find This Useful
-
-If this repository helps you with your own DSA journey, consider giving it a ⭐ and exploring the problems yourself.
-
----
-
-### ⚗️ Code Alchemy
-
-**Problems → Patterns → Practice → Progress**
+**Code Alchemy ⚗️ — Learning Python one problem at a time.**
